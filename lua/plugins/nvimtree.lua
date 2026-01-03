@@ -7,10 +7,7 @@ return {
     require("nvim-tree").setup({
       sort_by = "case_sensitive",
       view = {
-        widths = {
-          -- Can be a number or a function
-          max = 30, -- Max width for the tree
-        },
+        width = 30,
       },
       renderer = {
         group_empty = true,
